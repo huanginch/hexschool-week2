@@ -181,8 +181,12 @@ header {
     margin-bottom: 40px;
 }
 
-.header__info img {
+.header__info img:not(:last-child) {
     padding-right: 16px;
+}
+
+.header__info a:hover {
+    opacity: 0.5;
 }
 
 hr {
