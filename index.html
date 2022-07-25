@@ -13,119 +13,100 @@
         rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <ul class="header__info">
-                <li>
-                    <h3>Here's</h3>
-                </li>
-                <li>
-                    <h1>JOANNE</h1>
-                </li>
-                <li>
-                    <h2>Founder of "XXXD Official"<br />& Graphic Designer</h2>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/behance.svg" alt="Be"></a>
-                    <a href="#"><img src="./images/facebook.svg" alt="FB"></a>
-                    <a href="#"><img src="./images/instagram.svg" alt="IG"></a>
-                    <a href="#"><img src="./images/youtube.svg" alt="YT"></a>
-                </li>
-            </ul>
-        </header>
-        <main>
-            <section>
-                <div class="about">
-                    <ul class="about--info">
-                        <li>
-                            <h2>About</h2>
-                        </li>
-                        <li><img src="./images/photo.png" alt="profile"></li>
-                        <li class="about--info__name">
-                            <p>Joanne Chen</p>
-                        </li>
-                        <li class="about--info__birth">
-                            <p>1997/10/10</p>
-                        </li>
-                        <li class="about--info__edu">
-                            <p>National Hex School Normal University<br />Department of Visual Design</p>
-                        </li>
-                    </ul>
-                    <hr>
-                    <ul class="about--exp">
-                        <li>
-                            <p>Founder of "XXXD Official"</p>
-                        </li>
-                        <li>
-                            <p>Graphic Designer</p>
-                        </li>
-                        <li>
-                            <p>Graphic Intern of Hex School</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="my-brand">
-                <ul class="my-brand__list">
-                    <li><h2>My Brand ‘’XXXD’’</h2></li>
-                    <li><h3>Just Keep XXXD Everyday</h3></li>
-                    <li><p>2020 年創立的個人服飾品牌<br/>引領叛逆少年開啟與社會對話的窗口<br/>主打概念潮流T-Shirt</p></li>
-                    <li class="img-1"><img src="./images/brand_img1.png" alt="brand_img1"></li>
-                    <li class="img-2"><img src="./images/brand_img2.png" alt="brand_img2" ><img src="./images/brand_img3.png" alt="brand_img3"></li>
+    <header class="d-flex">   
+        <div class="header__info d-flex">
+            <h3>Here's</h3>
+            <h1>JOANNE</h1>
+            <h2>Founder of "XXXD Official"<br />& Graphic Designer</h2>
+            <div class="d-flex">
+                <a href="#"><img src="./images/behance.svg" alt="Be"></a>
+                <a href="#"><img src="./images/facebook.svg" alt="FB"></a>
+                <a href="#"><img src="./images/instagram.svg" alt="IG"></a>
+                <a href="#"><img src="./images/youtube.svg" alt="YT"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="about">
+                <h2>About</h2>
+                <img src="./images/photo.png" alt="profile">
+                <ul class="about__info">
+                    <li><p class="about__info__name">Joanne Chen</p></li>
+                    <li><p class="about__info__birth">1997/10/10</p></li>
+                    <li><p class="about__info__edu">National Hex School Normal University<br />Department of Visual Design</p></li>
                 </ul>
-            </section>
-            <section class="other-works">
-                <ul>
-                    <li><h2>Other Works</h2></li>
-                    <li class="other-works__intro"><p>2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p></li>
-                    <li class="d-flex">
-                        <div class="other-works__detail">
-                            <img src="./images/work_img1.png" alt="paper1">
-                            <p>海報設計/2017</p>
-                        </div>
-                        <div class="other-works__detail">
-                            <img src="./images/work_img2.png" alt="paper2">
-                            <p>海報設計/2018</p>
-                        </div>
-                        <div class="other-works__detail">
-                            <img src="./images/work_img3.png" alt="paper3">
-                            <p>海報設計/2019</p>
-                        </div>
+                <ul class="about__exp">
+                    <li>
+                        <p>Founder of "XXXD Official"</p>
                     </li>
-                    <li class="d-flex">
-                        <div class="other-works__detail">
-                            <img src="./images/work_img4.png" alt="photo1">
-                            <p>概念攝影/2018</p>
-                        </div>
-                        <div class="other-works__detail">
-                            <img src="./images/work_img5.png" alt="photo2">
-                            <p>概念攝影/2018</p>
-                        </div>
+                    <li>
+                        <p>Graphic Designer</p>
                     </li>
-                    <li class="d-flex">
-                        <div class="other-works__detail">
-                            <img src="./images/work_img6.png" alt="other1">
-                            <p>sasa 酒標設計/2019</p>
-                        </div>
-                        <div class="other-works__detail">
-                            <img src="./images/work_img7.png" alt="other2">
-                            <p>攝影創作/2018</p>
-                        </div>
-                        <div class="other-works__detail">
-                            <img src="./images/work_img8.png" alt="other3">
-                            <p>官網設計/2020</p>
-                        </div>
+                    <li>
+                        <p>Graphic Intern of Hex School</p>
                     </li>
                 </ul>
-            </section>
-        </main>
-        <footer>
-            <ul>
-                <li><h2>Contact</h2></li>
-                <li>Mail：<a href="xxxd@hexschool.com">xxxd@hexschool.com</a></li>
-                <li>Phone Number：<a href="0910123456">0910123456</a></li>
+            </div>
+        </section>
+        <section class="my-brand">
+            <h2>My Brand ‘’XXXD’’</h2>
+            <h3>Just Keep XXXD Everyday</h3>
+            <p>2020 年創立的個人服飾品牌<br />引領叛逆少年開啟與社會對話的窗口<br />主打概念潮流T-Shirt</p>
+            <ul class="my-brand__list">
+                <li class="img-1"><img src="./images/brand_img1.png" alt="brand_img1"></li>
+                <li class="img-2"><img src="./images/brand_img2.png" alt="brand_img2" ><img src="./images/brand_img3.png" alt="brand_img3"></li>
             </ul>
-        </footer>
-    </div>
+        </section>
+        <section class="other-works">
+            <h2>Other Works</h2>
+            <p class="other-works__intro">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
+            <ul class="d-flex mb-48">
+                <li class="other-works__detail">
+                    <img src="./images/work_img1.png" alt="paper1">
+                    <h3>海報設計/2017</h3>
+                </li>
+                <li class="other-works__detail">
+                    <img src="./images/work_img2.png" alt="paper2">
+                    <h3>海報設計/2018</h3>
+                </li>
+                <li class="other-works__detail">
+                    <img src="./images/work_img3.png" alt="paper3">
+                    <h3>海報設計/2019</h3>
+                </li>
+            </ul>
+            <ul class="d-flex mb-48">
+                <li class="other-works__detail">
+                    <img src="./images/work_img4.png" alt="photo1">
+                    <h3>概念攝影/2018</h3>
+                </li>
+                <li class="other-works__detail">
+                    <img src="./images/work_img5.png" alt="photo2">
+                    <h3>概念攝影/2018</h3>
+                </li>
+            </ul>
+            <ul class="d-flex">
+                <li class="other-works__detail">
+                    <img src="./images/work_img6.png" alt="other1">
+                    <h3>sasa 酒標設計/2019</h3>
+                </li>
+                <li class="other-works__detail">
+                    <img src="./images/work_img7.png" alt="other2">
+                    <h3>攝影創作/2018</h3>
+                </li>
+                <li class="other-works__detail">
+                    <img src="./images/work_img8.png" alt="other3">
+                    <h3>官網設計/2020</h3>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><h2>Contact</h2></li>
+            <li>Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
+            <li>Phone Number：<a href="tel:+886-910123456">0910123456</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
