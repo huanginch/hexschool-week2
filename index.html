@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>個人網站</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,100;1,400&family=Roboto:ital,wght@0,400;0,500;0,900;1,400;1,500;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="d-flex">   
+    <header class="d-flex" data-aos="fade-up" data-aos-duration="2500">   
         <div class="header__info d-flex">
             <h3>Here's</h3>
             <h1>JOANNE</h1>
@@ -27,11 +28,11 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="about">
+        <section data-aos="fade-up" data-aos-duration="2500">
+            <div class="about" data-aos="fade-up" data-aos-duration="2500">
                 <h2>About</h2>
                 <img src="./images/photo.png" alt="profile">
-                <ul class="about__info">
+                <ul class="about__info" data-aos="fade-up" data-aos-duration="2500">
                     <li><p class="about__info__name">Joanne Chen</p></li>
                     <li><p class="about__info__birth">1997/10/10</p></li>
                     <li><p class="about__info__edu">National Hex School Normal University<br />Department of Visual Design</p></li>
@@ -49,19 +50,19 @@
                 </ul>
             </div>
         </section>
-        <section class="my-brand">
+        <section class="my-brand" data-aos="fade-up" data-aos-duration="2500">
             <h2>My Brand ‘’XXXD’’</h2>
             <h3>Just Keep XXXD Everyday</h3>
             <p>2020 年創立的個人服飾品牌<br />引領叛逆少年開啟與社會對話的窗口<br />主打概念潮流T-Shirt</p>
-            <ul class="my-brand__list">
+            <ul class="my-brand__list" data-aos="fade-up" data-aos-duration="2500">
                 <li class="img-1"><img src="./images/brand_img1.png" alt="brand_img1"></li>
                 <li class="img-2"><img src="./images/brand_img2.png" alt="brand_img2" ><img src="./images/brand_img3.png" alt="brand_img3"></li>
             </ul>
         </section>
-        <section class="other-works">
+        <section class="other-works" data-aos="fade-up" data-aos-duration="2500">
             <h2>Other Works</h2>
             <p class="other-works__intro">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
-            <ul class="d-flex mb-48">
+            <ul class="d-flex mb-48" data-aos="fade-up" data-aos-duration="2500">
                 <li class="other-works__detail">
                     <img src="./images/work_img1.png" alt="paper1">
                     <h3>海報設計/2017</h3>
@@ -75,7 +76,7 @@
                     <h3>海報設計/2019</h3>
                 </li>
             </ul>
-            <ul class="d-flex mb-48">
+            <ul class="d-flex mb-48" data-aos="fade-up" data-aos-duration="2500">
                 <li class="other-works__detail">
                     <img src="./images/work_img4.png" alt="photo1">
                     <h3>概念攝影/2018</h3>
@@ -85,7 +86,7 @@
                     <h3>概念攝影/2018</h3>
                 </li>
             </ul>
-            <ul class="d-flex">
+            <ul class="d-flex" data-aos="fade-up" data-aos-duration="2500">
                 <li class="other-works__detail">
                     <img src="./images/work_img6.png" alt="other1">
                     <h3>sasa 酒標設計/2019</h3>
@@ -108,5 +109,9 @@
             <li>Phone Number：<a href="tel:+886-910123456">0910123456</a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
